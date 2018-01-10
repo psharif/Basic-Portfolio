@@ -1,0 +1,9 @@
+.Nav-Bar h1 {
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+
+.Nav-Bar li {
+	display: inline;
+}
