@@ -61,12 +61,30 @@ h1 {
 }
 
 .Nav-Bar li {
-	margin-right: 10px;
 	display: inline;
 }
 
 .Nav-Bar span {
-	color: rgba(117, 117, 117, 0.1);
+	color: rgba(117, 117, 117, 0.6);
+	margin-right: 10px;
+}
+
+.Nav-Bar a:link {
+	color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.Nav-Bar a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Nav-Bar a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
 }
 /* Ends Nav-Bar Stuff*/
 
@@ -213,6 +231,61 @@ h1 {
 	color: white; 
 }
 /* End Portfolio Classes */
+
+
+/* Contact Me Classes*/
+.Contact-Section {
+	float: left;
+	width: 650px;
+	background-color: white; 
+	border: 1px solid #dddddd;
+}
+
+.Contact-Section h1 {
+	width: 23%;
+	border: none;
+	height: 90px; 
+	color: #4aaaa5;
+	line-height: 90px; 
+	vertical-align: middle;
+	text-align: center; 
+}
+
+.Contact-Section hr {
+	border: 0 none;
+	height: 3px;
+	background-color: rgba(117, 117, 117, 0.3);
+	width: 94%;
+}
+
+.Contact-Section form {
+	margin: auto;
+	width: 94%;
+}
+
+.Contact-Section p {
+	margin-bottom: 5px;
+	font-size: 1.1em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.Contact-Section input {
+	width: 100%;
+	height: 30px;
+	margin: auto;
+}
+
+.Contact-Section button {
+	margin-bottom: 30px;
+	padding: 9px 27px;
+	font-size: 0.9em; 
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* End Contact Classes*/
 
 
 /* Footer Class*/
